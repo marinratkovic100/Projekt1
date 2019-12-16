@@ -8,3 +8,13 @@ C:\Users\Marin\Desktop\Git-Projekti\Projekt1\Igre_1\obj\Debug\Igre_1.csproj.Core
 C:\Users\Marin\Desktop\Git-Projekti\Projekt1\Igre_1\obj\Debug\Igre_1.exe
 C:\Users\Marin\Desktop\Git-Projekti\Projekt1\Igre_1\obj\Debug\Igre_1.pdb
 C:\Users\Marin\Desktop\Git-Projekti\Projekt1\Igre_1\obj\Debug\Igre_1.Igra.resources
+C:\Users\Marin\Desktop\Git-Projekti\Projekt1\Projekt1\Igre_1\bin\Debug\Igre_1.exe.config
+C:\Users\Marin\Desktop\Git-Projekti\Projekt1\Projekt1\Igre_1\bin\Debug\Igre_1.exe
+C:\Users\Marin\Desktop\Git-Projekti\Projekt1\Projekt1\Igre_1\bin\Debug\Igre_1.pdb
+C:\Users\Marin\Desktop\Git-Projekti\Projekt1\Projekt1\Igre_1\obj\Debug\Igre_1.csprojAssemblyReference.cache
+C:\Users\Marin\Desktop\Git-Projekti\Projekt1\Projekt1\Igre_1\obj\Debug\Igre_1.Igra.resources
+C:\Users\Marin\Desktop\Git-Projekti\Projekt1\Projekt1\Igre_1\obj\Debug\Igre_1.Properties.Resources.resources
+C:\Users\Marin\Desktop\Git-Projekti\Projekt1\Projekt1\Igre_1\obj\Debug\Igre_1.csproj.GenerateResource.cache
+C:\Users\Marin\Desktop\Git-Projekti\Projekt1\Projekt1\Igre_1\obj\Debug\Igre_1.csproj.CoreCompileInputs.cache
+C:\Users\Marin\Desktop\Git-Projekti\Projekt1\Projekt1\Igre_1\obj\Debug\Igre_1.exe
+C:\Users\Marin\Desktop\Git-Projekti\Projekt1\Projekt1\Igre_1\obj\Debug\Igre_1.pdb

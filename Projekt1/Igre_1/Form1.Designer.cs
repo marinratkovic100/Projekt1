@@ -91,6 +91,7 @@
             this.Igraj1.TabIndex = 0;
             this.Igraj1.Text = "Pokaži Šaku";
             this.Igraj1.UseVisualStyleBackColor = true;
+            this.Igraj1.Click += new System.EventHandler(this.Igraj1_Click);
             // 
             // label1
             // 
@@ -108,7 +109,7 @@
             this.label2.AutoSize = true;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label2.Location = new System.Drawing.Point(423, 103);
+            this.label2.Location = new System.Drawing.Point(438, 102);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(62, 22);
             this.label2.TabIndex = 8;
@@ -116,7 +117,8 @@
             // 
             // Igra1Rezultat
             // 
-            this.Igra1Rezultat.Location = new System.Drawing.Point(511, 103);
+            this.Igra1Rezultat.Enabled = false;
+            this.Igra1Rezultat.Location = new System.Drawing.Point(516, 102);
             this.Igra1Rezultat.Name = "Igra1Rezultat";
             this.Igra1Rezultat.Size = new System.Drawing.Size(55, 22);
             this.Igra1Rezultat.TabIndex = 9;
@@ -170,6 +172,7 @@
             // 
             // Igra2Rezultat
             // 
+            this.Igra2Rezultat.Enabled = false;
             this.Igra2Rezultat.Location = new System.Drawing.Point(258, 240);
             this.Igra2Rezultat.Name = "Igra2Rezultat";
             this.Igra2Rezultat.Size = new System.Drawing.Size(42, 22);
@@ -180,7 +183,7 @@
             this.Igraj3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Igraj3.Location = new System.Drawing.Point(33, 330);
             this.Igraj3.Name = "Igraj3";
-            this.Igraj3.Size = new System.Drawing.Size(123, 49);
+            this.Igraj3.Size = new System.Drawing.Size(123, 66);
             this.Igraj3.TabIndex = 16;
             this.Igraj3.Text = "Nastavi";
             this.Igraj3.UseVisualStyleBackColor = true;
@@ -205,6 +208,7 @@
             // 
             // Igra3NizZnakova
             // 
+            this.Igra3NizZnakova.Enabled = false;
             this.Igra3NizZnakova.Location = new System.Drawing.Point(179, 330);
             this.Igra3NizZnakova.Name = "Igra3NizZnakova";
             this.Igra3NizZnakova.Size = new System.Drawing.Size(102, 22);
@@ -234,6 +238,7 @@
             // 
             // Igra3Rezultat
             // 
+            this.Igra3Rezultat.Enabled = false;
             this.Igra3Rezultat.Location = new System.Drawing.Point(247, 358);
             this.Igra3Rezultat.Name = "Igra3Rezultat";
             this.Igra3Rezultat.Size = new System.Drawing.Size(34, 22);
@@ -281,6 +286,7 @@
             // 
             // BodoviNajvisiRezultat
             // 
+            this.BodoviNajvisiRezultat.Enabled = false;
             this.BodoviNajvisiRezultat.Location = new System.Drawing.Point(145, 205);
             this.BodoviNajvisiRezultat.Name = "BodoviNajvisiRezultat";
             this.BodoviNajvisiRezultat.Size = new System.Drawing.Size(155, 22);
@@ -315,6 +321,7 @@
             // 
             // BodoviUkupniTrenutni
             // 
+            this.BodoviUkupniTrenutni.Enabled = false;
             this.BodoviUkupniTrenutni.Location = new System.Drawing.Point(176, 273);
             this.BodoviUkupniTrenutni.Name = "BodoviUkupniTrenutni";
             this.BodoviUkupniTrenutni.Size = new System.Drawing.Size(124, 22);
@@ -322,6 +329,7 @@
             // 
             // BodoviTrenutniIgra3
             // 
+            this.BodoviTrenutniIgra3.Enabled = false;
             this.BodoviTrenutniIgra3.Location = new System.Drawing.Point(106, 273);
             this.BodoviTrenutniIgra3.Name = "BodoviTrenutniIgra3";
             this.BodoviTrenutniIgra3.Size = new System.Drawing.Size(42, 22);
@@ -329,6 +337,7 @@
             // 
             // BodoviTrenutniIgra2
             // 
+            this.BodoviTrenutniIgra2.Enabled = false;
             this.BodoviTrenutniIgra2.Location = new System.Drawing.Point(59, 273);
             this.BodoviTrenutniIgra2.Name = "BodoviTrenutniIgra2";
             this.BodoviTrenutniIgra2.Size = new System.Drawing.Size(26, 22);
@@ -336,6 +345,7 @@
             // 
             // BodoviTrenutniIgra1
             // 
+            this.BodoviTrenutniIgra1.Enabled = false;
             this.BodoviTrenutniIgra1.Location = new System.Drawing.Point(3, 273);
             this.BodoviTrenutniIgra1.Name = "BodoviTrenutniIgra1";
             this.BodoviTrenutniIgra1.Size = new System.Drawing.Size(34, 22);
@@ -374,6 +384,7 @@
             // 
             // BodoviIgra3
             // 
+            this.BodoviIgra3.Enabled = false;
             this.BodoviIgra3.Location = new System.Drawing.Point(200, 148);
             this.BodoviIgra3.Name = "BodoviIgra3";
             this.BodoviIgra3.Size = new System.Drawing.Size(100, 22);
@@ -381,6 +392,7 @@
             // 
             // BodoviIgra2
             // 
+            this.BodoviIgra2.Enabled = false;
             this.BodoviIgra2.Location = new System.Drawing.Point(200, 119);
             this.BodoviIgra2.Name = "BodoviIgra2";
             this.BodoviIgra2.Size = new System.Drawing.Size(100, 22);
@@ -388,6 +400,7 @@
             // 
             // BodoviIgra1
             // 
+            this.BodoviIgra1.Enabled = false;
             this.BodoviIgra1.Location = new System.Drawing.Point(200, 90);
             this.BodoviIgra1.Name = "BodoviIgra1";
             this.BodoviIgra1.Size = new System.Drawing.Size(100, 22);
@@ -438,8 +451,10 @@
             // 
             this.Igra2NasumicniBroj.Location = new System.Drawing.Point(258, 201);
             this.Igra2NasumicniBroj.Name = "Igra2NasumicniBroj";
+            this.Igra2NasumicniBroj.ReadOnly = true;
             this.Igra2NasumicniBroj.Size = new System.Drawing.Size(42, 22);
             this.Igra2NasumicniBroj.TabIndex = 26;
+            this.Igra2NasumicniBroj.Text = "1\r\n2\r\n3\r\n";
             // 
             // Igra3RezultatSlika
             // 
@@ -455,16 +470,16 @@
             this.Igra2RezultatSlika.Image = global::Igre_1.Properties.Resources.promasaj;
             this.Igra2RezultatSlika.Location = new System.Drawing.Point(306, 201);
             this.Igra2RezultatSlika.Name = "Igra2RezultatSlika";
-            this.Igra2RezultatSlika.Size = new System.Drawing.Size(121, 56);
+            this.Igra2RezultatSlika.Size = new System.Drawing.Size(111, 61);
             this.Igra2RezultatSlika.TabIndex = 13;
             this.Igra2RezultatSlika.TabStop = false;
             // 
             // Igra1RezultatSlika
             // 
             this.Igra1RezultatSlika.Image = global::Igre_1.Properties.Resources.nerijeseno;
-            this.Igra1RezultatSlika.Location = new System.Drawing.Point(441, 52);
+            this.Igra1RezultatSlika.Location = new System.Drawing.Point(448, 52);
             this.Igra1RezultatSlika.Name = "Igra1RezultatSlika";
-            this.Igra1RezultatSlika.Size = new System.Drawing.Size(112, 36);
+            this.Igra1RezultatSlika.Size = new System.Drawing.Size(116, 36);
             this.Igra1RezultatSlika.TabIndex = 7;
             this.Igra1RezultatSlika.TabStop = false;
             // 
@@ -479,11 +494,12 @@
             // 
             // Igra1IzaberiSliku
             // 
-            this.Igra1IzaberiSliku.Image = global::Igre_1.Properties.Resources.papir;
+            this.Igra1IzaberiSliku.Image = global::Igre_1.Properties.Resources.skare;
             this.Igra1IzaberiSliku.InitialImage = null;
             this.Igra1IzaberiSliku.Location = new System.Drawing.Point(287, 46);
             this.Igra1IzaberiSliku.Name = "Igra1IzaberiSliku";
             this.Igra1IzaberiSliku.Size = new System.Drawing.Size(110, 99);
+            this.Igra1IzaberiSliku.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Igra1IzaberiSliku.TabIndex = 1;
             this.Igra1IzaberiSliku.TabStop = false;
             // 
@@ -498,7 +514,6 @@
             this.Igra1kamen.TabStop = true;
             this.Igra1kamen.Text = "Kamen";
             this.Igra1kamen.UseVisualStyleBackColor = true;
-            this.Igra1kamen.CheckedChanged += new System.EventHandler(this.Igra1kamen_CheckedChanged);
             // 
             // Igra1papir
             // 
@@ -511,7 +526,6 @@
             this.Igra1papir.TabStop = true;
             this.Igra1papir.Text = "Papir";
             this.Igra1papir.UseVisualStyleBackColor = true;
-            this.Igra1papir.CheckedChanged += new System.EventHandler(this.Igra1papir_CheckedChanged);
             // 
             // Igra1skare
             // 
@@ -524,7 +538,6 @@
             this.Igra1skare.TabStop = true;
             this.Igra1skare.Text = "Škare";
             this.Igra1skare.UseVisualStyleBackColor = true;
-            this.Igra1skare.CheckedChanged += new System.EventHandler(this.Igra1skare_CheckedChanged);
             // 
             // Igra
             // 
